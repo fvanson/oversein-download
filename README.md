@@ -4,7 +4,7 @@ App voor het invullen, bewaren en afdrukken van het **DARES Berichtenformulier**
 formulier (V2.5) en het digitale formulier voor Winlink (V1.3.1). De app werkt **volledig offline**: berichten
 blijven op je eigen apparaat.
 
-> **Alpha-versie (V0.07 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
+> **Alpha-versie (V0.08 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
 > nog fouten in zitten en onderdelen kunnen nog veranderen. Gebruik deze versie (nog) niet als enige middel bij een
 > echte inzet.
 >
@@ -16,8 +16,8 @@ Ga naar **[Releases](https://github.com/fvanson/dares-berichtenformulier-downloa
 
 | Apparaat | Bestand |
 |---|---|
-| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.07-Alpha-Windows.zip` |
-| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.07-Alpha-Android.apk` |
+| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.08-Alpha-Windows.zip` |
+| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.08-Alpha-Android.apk` |
 
 ## Installeren op Windows
 
@@ -57,7 +57,7 @@ De app vraagt eerst om je **roepnaam** (callsign). Die staat bovenaan het formul
 standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wijzigen via **Instellingen**
 (tandwiel rechtsboven).
 
-## Wat kan V0.07 Alpha
+## Wat kan V0.08 Alpha
 
 - Berichtenformulier invullen zoals op papier: grijze velden voor DARES, witte velden voor de opdrachtgever.
 - Bericht van maximaal 25 woorden (maximaal 35 tekens per woord) in een 5×5-raster, met automatische woordtelling.
@@ -71,14 +71,19 @@ standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wij
 - Nummering per post, waarschuwing bij een dubbel nummer.
 - *Ontvangen van* en *Doorgegeven aan*.
 - Berichten bewaren, terugzoeken en bewerken.
+- **Inzetten:** berichten per inzet of oefening, met afsluiten (CSV en PDF van alle berichten), een **archief** en
+  een **prullenbak**. Een bericht dat de post nog niet heeft verlaten kun je verwijderen.
 - **Afdrukken** en **opslaan als PDF** (A4 liggend, in de opmaak van het papieren formulier), met de status en het
   statusverloop van het bericht.
 - **Bericht doorgeven aan een ander apparaat** met de app, als bestand (Quick Share, Bluetooth, USB-stick) of als
   QR-code (scannen met een telefoon of tablet). Het ontvangen bericht is een kopie: alleen lezen.
 - **Netwerk delen** (Windows): anderen op dezelfde wifi of hotspot kijken in hun browser live mee met het bericht dat
   op de laptop open staat, en zien de berichten van vandaag. Zonder internet en zonder installatie.
-- **Naar Winlink** (Windows, in test; aan te zetten in Instellingen): een importbestand voor Winlink Express (DWS).
-  Via *Message > Import messages* staat het bericht in de Outbox, inclusief het DARES-formulier voor de ontvanger.
+- **Naar Winlink** (Windows): een importbestand voor Winlink Express (DWS). Via *Message > Import messages* staat
+  het bericht in de Outbox, inclusief het DARES-formulier voor de ontvanger.
+- **Onderwerp en tekst kopiëren** in de vorm van het DARES Winlink-formulier, om zelf te plakken in Winlink of een
+  e-mail (ook op een telefoon).
+- **Help in de app:** een **?** met uitleg bij elk veld, en uitlegpagina's (op Windows ook met F1).
 - **CSV-export** (per periode) en **CSV-import**, bijvoorbeeld als back-up of om in Excel te bekijken.
 
 Nog **niet** in deze versie: versturen via Winlink, versies voor iPhone/iPad, Mac en Linux.
@@ -102,12 +107,15 @@ Alles blijft op je eigen apparaat; de app stuurt niets via internet. Maak tijden
   jullie post?
 - Werkt meekijken via Netwerk delen op de hotspot van een telefoon, met Android en iPhone?
 - Gebruik je Winlink Express? Lukt *Naar Winlink* en ziet de ontvanger het DARES-formulier?
+- Is de uitleg bij de velden (het **?**) duidelijk? Mis je iets in de help?
+- Past het werken met inzetten (afsluiten, archief, prullenbak) bij hoe jullie een inzet of oefening afronden? Vind je
+  de inzetten makkelijk terug (links op de computer, via de naam boven de lijst op de telefoon)?
 
 ## Feedback
 
 Graag! Mail naar **frank@vanson.me** en vermeld:
 
-- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.07 Alpha*);
+- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.08 Alpha*);
 - je apparaat en Windows- of Android-versie;
 - wat je deed, wat je verwachtte en wat er gebeurde;
 - een schermafbeelding als dat helpt.
