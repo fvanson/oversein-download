@@ -127,7 +127,7 @@ Alles blijft op je eigen apparaat; de app stuurt niets via internet. Maak tijden
 
 ## Feedback
 
-Graag! Mail naar **frank@vanson.me** en vermeld:
+Graag! Mail naar **feedback@oversein.nl** en vermeld:
 
 - de versie (staat bovenaan het formulier, bijvoorbeeld *Oversein V0.9 Beta*);
 - je apparaat en Windows- of Android-versie;
