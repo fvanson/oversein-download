@@ -1,28 +1,29 @@
-# DARES Berichtenformulier – downloads
+# Oversein – downloads
 
-App voor het invullen, bewaren en afdrukken van het **DARES Berichtenformulier**, gebaseerd op het papieren
-formulier (V2.5) en het digitale formulier voor Winlink (V1.3.1). De app werkt **volledig offline**: berichten
-blijven op je eigen apparaat.
+**Oversein**, *toolkit voor noodcommunicatie zonder internet*, is een app voor het invullen, bewaren en afdrukken
+van het **DARES Berichtenformulier**, gebaseerd op het papieren formulier (V2.5) en het digitale formulier voor
+Winlink (V1.3.1). De app werkt **volledig offline**: berichten blijven op je eigen apparaat. Tot V0.08 heette de app
+*DARES Berichtenformulier*; V0.9 Beta begint met een schone lei (zie *Bijwerken*). Website: **[oversein.nl](https://oversein.nl)**.
 
-> **Alpha-versie (V0.08 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
-> nog fouten in zitten en onderdelen kunnen nog veranderen. Gebruik deze versie (nog) niet als enige middel bij een
-> echte inzet.
+> **Bètaversie (V0.9 Beta).** Alles wat in versie 1.0 moet zitten, zit erin; tot versie 1.0 komen er alleen nog
+> verbeteringen. Houd bij een echte inzet het papieren formulier achter de hand.
 >
-> Deze app is een initiatief van PD2FT (DARES R20) en is (nog) geen officiële uitgave van DARES.
+> Oversein is een onofficiële app, gemaakt door PD2FT (DARES regio 20) voor het werk tijdens een inzet of training.
+> Het is geen uitgave van DARES.
 
 ## Downloaden
 
-Ga naar **[Releases](https://github.com/fvanson/dares-berichtenformulier-download/releases)** en download bij de nieuwste versie het bestand voor jouw apparaat:
+Ga naar **[Releases](https://github.com/fvanson/oversein-download/releases)** en download bij de nieuwste versie het bestand voor jouw apparaat:
 
 | Apparaat | Bestand |
 |---|---|
-| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.08-Alpha-Windows.zip` |
-| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.08-Alpha-Android.apk` |
+| Windows 10/11 (laptop/pc) | `Oversein-V0.9-Beta-Windows.zip` |
+| Android 7.0 of nieuwer (telefoon/tablet) | `Oversein-V0.9-Beta-Android.apk` |
 
 ## Installeren op Windows
 
 1. Pak het zip-bestand uit, bijvoorbeeld naar je map Documenten (rechtsklik → *Alles uitpakken*).
-2. Open de map `Berichtenformulier` en start `berichtenformulier.exe`.
+2. Open de map `Oversein` en start `oversein.exe`.
 3. Windows kan waarschuwen met *"Windows heeft uw pc beveiligd"*, omdat de app nog niet digitaal ondertekend is.
    Klik op **Meer informatie** en dan op **Toch uitvoeren**.
 
@@ -38,18 +39,30 @@ download de nieuwste versie.
    (*Onbekende apps installeren*): sta dit toe voor je browser of bestandsbeheerder.
 3. Google Play Protect kan waarschuwen dat de app onbekend is. Kies **Details** → **Toch installeren**.
 
-De app heet op je telefoon **Berichtenformulier**.
+De app heet op je telefoon **Oversein**.
 
 ## Bijwerken naar een nieuwe versie
 
 Je berichten en instellingen blijven bewaard bij het bijwerken.
 
-- **Windows:** pak de nieuwe zip uit en gebruik de nieuwe map `Berichtenformulier` (de oude map mag weg). De berichten
-  staan niet in die map maar in je gebruikersprofiel (`%APPDATA%\me.vanson\DARES Berichtenformulier`).
+- **Windows:** pak de nieuwe zip uit en gebruik de nieuwe map `Oversein` (de oude map mag weg). De berichten staan
+  niet in die map maar in je gebruikersprofiel (`%APPDATA%\me.vanson\Oversein`).
 - **Android:** installeer de nieuwe APK gewoon over de oude heen; **niet** eerst verwijderen, want dan ben je je
   berichten kwijt.
 
 Maak voor de zekerheid vóór het bijwerken een **CSV-export** als back-up.
+
+### Van een testversie met de naam Berichtenformulier
+
+Oversein V0.9 Beta begint met een **schone lei**: berichten uit de eerdere testversies (*DARES Berichtenformulier*,
+tot en met V0.08 Alpha) gaan niet vanzelf mee, en de oude en de nieuwe app wisselen geen berichten uit.
+
+- Wil je oude berichten bewaren? Maak in de oude app een **CSV-export** en lees die in Oversein in met
+  **CSV importeren**.
+- **Android:** Oversein komt naast de oude app. Verwijder daarna de oude app *Berichtenformulier*.
+- **Windows:** gooi de oude map `Berichtenformulier` weg, en ook de oude gegevens in
+  `%APPDATA%\me.vanson\DARES Berichtenformulier`. Had je de oude app vastgemaakt aan de taakbalk of het startmenu?
+  Maak dan `oversein.exe` vast en haal de oude weg.
 
 ## Eerste start
 
@@ -57,7 +70,7 @@ De app vraagt eerst om je **roepnaam** (callsign). Die staat bovenaan het formul
 standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wijzigen via **Instellingen**
 (tandwiel rechtsboven).
 
-## Wat kan V0.08 Alpha
+## Wat kan V0.9 Beta
 
 - Berichtenformulier invullen zoals op papier: grijze velden voor DARES, witte velden voor de opdrachtgever.
 - Bericht van maximaal 25 woorden (maximaal 35 tekens per woord) in een 5×5-raster, met automatische woordtelling.
@@ -85,6 +98,7 @@ standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wij
   e-mail (ook op een telefoon).
 - **Help in de app:** een **?** met uitleg bij elk veld, en uitlegpagina's (op Windows ook met F1).
 - **CSV-export** (per periode) en **CSV-import**, bijvoorbeeld als back-up of om in Excel te bekijken.
+- **Over Oversein** (onderaan in Instellingen): versie, website, feedbackadres en licenties.
 
 Nog **niet** in deze versie: versturen via Winlink, versies voor iPhone/iPad, Mac en Linux.
 
@@ -115,7 +129,7 @@ Alles blijft op je eigen apparaat; de app stuurt niets via internet. Maak tijden
 
 Graag! Mail naar **frank@vanson.me** en vermeld:
 
-- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.08 Alpha*);
+- de versie (staat bovenaan het formulier, bijvoorbeeld *Oversein V0.9 Beta*);
 - je apparaat en Windows- of Android-versie;
 - wat je deed, wat je verwachtte en wat er gebeurde;
 - een schermafbeelding als dat helpt.
