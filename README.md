@@ -19,6 +19,7 @@ Ga naar **[Releases](https://github.com/fvanson/oversein-download/releases)** en
 |---|---|
 | Windows 10/11 (laptop/pc) | `Oversein-V0.9-Beta-Windows.zip` |
 | Android 7.0 of nieuwer (telefoon/tablet) | `Oversein-V0.9-Beta-Android.apk` |
+| iPhone/iPad (iOS 15 of nieuwer) | via TestFlight: installeer de app **TestFlight** uit de App Store en open dan [deze link](https://testflight.apple.com/join/cBpPfup1) |
 
 ## Installeren op Windows
 
@@ -100,7 +101,7 @@ standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wij
 - **CSV-export** (per periode) en **CSV-import**, bijvoorbeeld als back-up of om in Excel te bekijken.
 - **Over Oversein** (onderaan in Instellingen): versie, website, feedbackadres en licenties.
 
-Nog **niet** in deze versie: versturen via Winlink, versies voor iPhone/iPad, Mac en Linux.
+Nog **niet** in deze versie: versturen via Winlink, versies voor Mac en Linux. iPhone/iPad: als testversie via TestFlight.
 
 ## Je gegevens
 
